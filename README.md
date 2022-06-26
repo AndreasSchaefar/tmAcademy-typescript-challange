@@ -3,8 +3,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#project-requirements)
-  - [Screenshot](#screenshot)
+  - [Requirements](#project-requirements)
   - [How to start the project](#how-to-start-the-project)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -31,18 +30,35 @@
 - [x] the key variable is the key of ObjectShape whose value is known to you (id, for example);
 - [x] the value variable is the value of the key property;
 - [x] the patch variable is the update that needs to be applied (has a Partial<ObjectShape> interface);
-- [ ] use async/await to handle asynchronous operations
-
-### Screenshot
+- [x] use async/await to handle asynchronous operations
 
 ### How to start the project
+
+#### Build
+
+```
+npm run build
+```
+
+Then open an index.html
+
+#### Open a live server
+
+```
+npm run start
+```
 
 ## My process
 
 ### Built with
 
-- [Resource](https://www.link.com/)
+- [Webpack](https://webpack.js.org/) - Module bundler
+- [Eslint](https://eslint.org/) - Linter (Airbnb Code Style)
+- [Prettier](https://prettier.io/) - Code Formatter
+- [NPM](https://www.npmjs.com/) - Package Manager
 
 ### Resources Used
 
-- [Resource](https://www.link.com/)
+- [Typescript Excersises](https://typescript-exercises.github.io/)
+- [Typescript Generics Tutorial](https://www.youtube.com/watch?v=nViEqpgwxHE)
+- [Typescript documentation](https://www.typescriptlang.org/docs/handbook/)
