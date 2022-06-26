@@ -26,11 +26,11 @@
 
 ##### Requirements:
 
-- [ ] the function has to be called as updateObjectInArray<ObjectShape>(initialArray, key, value, patch);
-- [ ] you should create a copy of initialArray before performing the update;
-- [ ] the key variable is the key of ObjectShape whose value is known to you (id, for example);
-- [ ] the value variable is the value of the key property;
-- [ ] the patch variable is the update that needs to be applied (has a Partial<ObjectShape> interface);
+- [x] the function has to be called as updateObjectInArray<ObjectShape>(initialArray, key, value, patch);
+- [x] you should create a copy of initialArray before performing the update;
+- [x] the key variable is the key of ObjectShape whose value is known to you (id, for example);
+- [x] the value variable is the value of the key property;
+- [x] the patch variable is the update that needs to be applied (has a Partial<ObjectShape> interface);
 - [ ] use async/await to handle asynchronous operations
 
 ### Screenshot
